@@ -45,6 +45,9 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gh-pages -d public"
+    "deploy": "gh-pages -d public",
+    "update": "cd _data/blog && curl -s 'https://qiita.com/api/v2/users/uehaj/items?per_page=100' | jq -r '.[].url' | xargs -n1 -I{} bash -c 'curl -o $(basename {}).md -s {}.md' && for i in *.md; do perl -i -pe \"s|^title:|date: 2020-02-20T15:08:12.174Z\npath: /$i/index.html\ntemplate: BlogPost\ntitle:|;\" $i ;  done",
+
+    "update_build_deploy" : "yarn run clean && yarn run update && yarn run build && yarn run deploy"
   }
 }
