@@ -1,6 +1,7 @@
 ---
-path: /60abb9be0dfac0755dcf.md
 date: 2020-02-20T15:08:12.174Z
+path: /60abb9be0dfac0755dcf.md/index.html
+template: BlogPost
 title: 第13回オフラインリアルタイムどう書くの問題をFregeで解く
 tags: Frege doukaku
 author: uehaj

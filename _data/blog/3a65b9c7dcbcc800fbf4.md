@@ -1,6 +1,7 @@
 ---
-path: /3a65b9c7dcbcc800fbf4.md
 date: 2020-02-20T15:08:12.174Z
+path: /3a65b9c7dcbcc800fbf4.md/index.html
+template: BlogPost
 title: スタンドアローンGORMをGroovyスクリプトからシュっと利用する
 tags: Grails GORM Groovy SpringBoot
 author: uehaj

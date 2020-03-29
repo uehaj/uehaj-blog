@@ -1,6 +1,7 @@
 ---
-path: /7de2d1b0fb2aabf2f27d.md
 date: 2020-02-20T15:08:12.174Z
+path: /7de2d1b0fb2aabf2f27d.md/index.html
+template: BlogPost
 title: 第28回 オフラインリアルタイムどう書くの問題「十字の壁がそそり立つ世界の中を君は螺旋状に歩く」をRustで解く
 tags: Rust どう書く
 author: uehaj
