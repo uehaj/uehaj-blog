@@ -7,11 +7,11 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `Delog`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://delog-w3layouts.netlify.com/`,
+    title: `Uehaj-Blog`,
+    description: `Uheaj-Blog migrated from Qiita.`,
+    siteUrl: `https://uehaj.github.io/uehaj-blog/`,
     home: {
-      title: `Hi! I'm Delog`,
+      title: `Uehaj-Blogへようこそ`,
       description: `I have been specifically designed to become a digital home for designers and developers, help them build amazing professional looking websites with ease. You don't have to worry about nitty gritty of web hosting services to run a blog and yet take full advantage of CMS to manage content :)`,
     },
     /* W3Layouts domain verification key for contact forms https://my.w3layouts.com/Forms/ */
@@ -43,14 +43,14 @@ module.exports = {
         }],
       },
     },
-    {
+    /*{
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
-        trackingId: "UA-30027142-1",
+       trackingId: "UA-47480017-2",
         head: true,
       }
-    },
+    },*/
     `gatsby-plugin-sass`, 
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
